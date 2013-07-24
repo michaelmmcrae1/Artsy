@@ -1,0 +1,71 @@
+<html>
+<head>
+    
+<!-- For ajax.googleapis.com/ajax... jQuery file, I have NOT included the http: 
+part in order to allow the browser to choose between HTTP and HTTPS -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="color_span.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>  
+	
+      <div class="left-most">
+	<div id="rgb">
+            <h3>Enter integers ranging 0 - 255 for Red, Green, and Blue. Then, click "Set Color"</h3>
+		<label>Red<input id="rgb_red" type="text" size="5"></label><br />
+		<label>Green<input id="rgb_green" type="text" size="5"></label><br />
+		<label>Blue<input id="rgb_blue" type="text" size="5"></label><br />
+		<button id="set_rgb">Set Color</button>
+	 </div>
+          
+          <div id="hex">
+            <h3>Enter a hex-code ranging 000000 - FFFFFF. Then, click "Set Color"</h3>
+                <label>Hex-code<input id="hex_text" type="text" size="10"></label><br />
+                <button id="set_hex">Set Color</button>
+        </div>
+       </div><!-- end left-most -->
+        
+       <div class="center">
+           <img src="images/wood-frame.jpg" />
+           <canvas id="canvas" width="340" height="412"></canvas>
+        <div id="color-buttons">
+            <h3>Click to add Red, Green, or Blue</h3>
+            <center><button id="red_button">Red</button>
+		<button id="green_button">Green</button>
+		<button id="blue_button">Blue</button><br />
+                <button id="reset">Reset</button></center>
+	</div>
+       </div><!-- end center -->
+      
+       <div class="right-most">
+        <div id="range">
+            <h3>Drag the bar for Red, Green, or Blue to set the color</h3>
+            <table>
+                <tr>
+                    <td>Red</td>
+                    <td><input id="range_red" type="range" min="0" 
+                                max="255" value="0" step="1"></td>
+                </tr>
+                <tr>
+                    <td>Green</td>
+                    <td><input id="range_green" type="range" min="0" 
+                                max="255" value="0" step="1"></td>
+                </tr>
+                <tr>
+                    <td>Blue</td>
+                    <td><input id="range_blue" type="range" min="0" 
+                                max="255" value="0" step="1"></td>
+                </tr>
+            </table>
+        </div>
+       </div><!-- end right-most -->
+       
+       
+        
+</body>	
+
+</html>
