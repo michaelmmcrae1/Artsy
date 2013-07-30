@@ -1,0 +1,13 @@
+This whole project started off as a way to play with the Canvas element -- which to me was an exciting part of the HTML5 specification.
+I wanted to simply use the canvas, and draw different shapes and colors on the canvas. But I soon realized that really it was the colors 
+that I was most interested in. I simply wanted to make and see colors. I enjoyed making random subtly different colors, just enjoying 
+the pure and deep hue.
+
+I started just with the RGB 0 - 255 setting-box. But then I wanted buttons. And then I wanted ranges. And then, hexcodes to top it off 
+(and occasionally help me come up with cool colors to use in my css). This is a humble project, but it has been rewarding and fun. This 
+project has helped me dip my feet into jQuery, tricks with background-images and ratios, the canvas element, the DOM model, events 
+and functions, and general patterns in javascript usage (I wanted it to make sense... not be a mess). I hope to next work on some kind 
+of simple JavaScript game (with the use of jQuery and the <canvas>).
+
+I hope that this project still carries it's original spirit -- the fascination with colors and the simple artistic joy in making, 
+seeing, and using them. I named it "Artsy" because, well, I was feeling artsy, and I liked that.
