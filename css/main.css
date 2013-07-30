@@ -45,34 +45,61 @@ img{
 
 .right-most{
     margin-left:2%;
-    background-color:#E4D1B6;
     width:25%;
     position:relative;
     float:left;
 }
 
+#range{
+    background-color:#E4D1B6;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding:2px;
+}
+
+#changeCanvas{
+    background-color:#E4D1B6;
+    margin-top:20px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding:2px;
+}
 
 #color-buttons {
     background-color:#E4D1B6;
     margin-top:5%;
-    width:100%;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding:2px;
 }
 
 #rgb {
     background-color:#E4D1B6;
-    width:100%;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding:2px;
 }
 
 #hex{
     background-color:#E4D1B6;
-    width:100%;
-    margin-top:1.5%;
+    margin-top:20px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding:2px;
 }
 
 #range-set {
-    width:100%;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding:2px;
 }
 
 #reset {
-	margin-left:6%;
+    margin-left:6%;
 }
